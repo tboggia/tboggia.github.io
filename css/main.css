@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa:700&display=swap');
+/* UNIVERSAL */
 * {
 	font-family: 'Comfortaa', cursive;
 	color: rgba(51,51,51, 1);
@@ -9,8 +10,7 @@ p {
 	font-size: 1em;
 }
 a {
-	text-decoration: none;
-  font-size: 1.4em;
+  color: darkblue;
 }
 h1 {
 	font-size: 3em;
@@ -25,27 +25,30 @@ body {
   justify-content: center;
 }
 
-main {
+/* PORTFOLIO HOME */
+.portfolio {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   grid-gap: 30px;
   grid-auto-rows: 100%;
   width: 100%;
 }
-figure {
+.portfolio__figure {
 	margin: 0;
 } 
-figure a {
+.portfolio__figure__wrapper {
+  text-decoration: none;
   max-width: 900px;
   display: grid;
   grid-template-areas: "cube";
   align-items: center;
+  font-size: 1.4em;
 }
-figure img {
+.portfolio__figure__image {
   width: 100%;
   grid-area: cube;
 }
-figure p {
+.portfolio__figure__text {
   opacity: 0;
   height: 100%;
   margin: 0px;
@@ -56,6 +59,29 @@ figure p {
   text-align: center;
   background: white;
 }
-figure p:hover {
+.portfolio__figure__text:hover {
 	opacity: .75;
+}
+
+
+/* EXAMPLE */
+.example__text {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/* UTILITY CLASSES */
+.small {
+  font-size: .75em;
+}
+
+/* GRID UTILITIES */
+.grid-col-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+  grid-auto-rows: 100%;
+  width: 100%;
 }
