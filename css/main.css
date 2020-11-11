@@ -12,6 +12,13 @@ p {
 a {
   color: darkblue;
 }
+li {
+  margin-bottom: .8em;
+}
+li:last-child {
+  margin-bottom: 0em;
+}
+
 h1 {
 	font-size: 3em;
 }
@@ -66,10 +73,13 @@ body {
 
 /* EXAMPLE */
 .example__text {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.example__image img {
+  width: 100%;
 }
 
 /* UTILITY CLASSES */
