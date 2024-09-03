@@ -46,5 +46,5 @@ getData(shuttleSite)
  */
 doSomething();
 function doSomething() {
-  console.log("did something");
+  console.log("did something else");
 }
