@@ -1,0 +1,48 @@
+<!doctype html>
+<html class="no-js" lang="{{ .Site.LanguageCode }}">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>{{ .Title }} | {{ .Site.Title }}</title>
+  <meta name="description" content="{{ .Description }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+  <banner>
+    <p class="nav small"><a href="/">Back to Portfolio</a></p>
+    <h1>{{ .Title }}</h1>
+  </banner>
+  <main>
+    {{ .Content }}
+
+    {{ range $k, $section := .Params.sections }}
+      <h2>{{ $section.title }}</h2>
+      {{ if $section.subsection }}
+        <div class="grid-col-2 example">
+          {{ if mod $k 2 | eq 0 }}
+            <a class="example__image" href="{{ $section.image.link }}"><img src="{{ $section.image.src }}" alt="{{ $section.image.alt }}"></a>
+          {{ end }}
+          <div class="example__text">
+            <h3>{{ $section.subsection }}</h3>
+            <ul>
+              {{ range $section.list }}
+              <li>{{ . | safeHTML }}</li>
+              {{ end }}
+            </ul>
+          </div>
+          {{ if mod $k 2 | eq 1 }}
+            <a class="example__image" href="{{ $section.image.link }}"><img src="{{ $section.image.src }}" alt="{{ $section.image.alt }}"></a>
+          {{ end }}
+        </div>
+      {{ end }}
+    {{ end }}
+  </main>
+
+  <script src="/js/main.js"></script>
+</body>
+
+</html>
