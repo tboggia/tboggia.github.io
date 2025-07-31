@@ -1,6 +1,7 @@
 {{ define "main" }}
 {{ range .Site.Data.portfolio }}
 <h2>{{ .company }}</h2>
+<p>{{ .description }}</p>
 <div class="portfolio">
   {{ range .items }}
   <figure class="portfolio__figure">

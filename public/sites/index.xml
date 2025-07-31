@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sites on Tommasofolio</title>
-    <link>http://localhost:1313/sites/</link>
+    <link>https://tboggia.github.io/sites/</link>
     <description>Recent content in Sites on Tommasofolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/sites/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://tboggia.github.io/sites/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Berkeley Extension Voices Blog Detail</title>
-      <link>http://localhost:1313/sites/voices/</link>
+      <link>https://tboggia.github.io/sites/voices/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sites/voices/</guid>
+      <guid>https://tboggia.github.io/sites/voices/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;</description>
     </item>
     <item>
       <title>UC Berkeley Extension Detail</title>
-      <link>http://localhost:1313/sites/extension/</link>
+      <link>https://tboggia.github.io/sites/extension/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sites/extension/</guid>
+      <guid>https://tboggia.github.io/sites/extension/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;</description>
     </item>
   </channel>
