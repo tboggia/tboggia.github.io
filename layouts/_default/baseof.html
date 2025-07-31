@@ -1,0 +1,29 @@
+<!doctype html>
+<html class="no-js" lang="{{ .Site.LanguageCode }}">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>{{ .Title }} | {{ .Site.Title }}</title>
+  <meta name="description" content="{{ .Site.Params.description }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/css/main.css">
+  {{ block "head_extra" . }}
+  {{ end }}
+</head>
+
+<body>
+  <header>
+    <h1>Some of the things I've done</h1>
+  </header>
+  <main>
+    {{ block "main" . }}
+    {{ end }}
+  </main>
+
+  <script src="/js/main.js"></script>
+  {{ block "footer_extra" . }}
+  {{ end }}
+</body>
+
+</html>

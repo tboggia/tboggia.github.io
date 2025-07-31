@@ -1,0 +1,16 @@
+{{ define "main" }}
+{{ range .Site.Data.portfolio }}
+<h2>{{ .company }}</h2>
+<div class="portfolio">
+  {{ range .items }}
+  <figure class="portfolio__figure">
+    <div class="portfolio__figure__wrapper">
+      <img class="portfolio__figure__image" src="/{{ .image }}" alt="{{ .alt }}">
+      <p class="portfolio__figure__text">{{ .description }}</p>
+    </div>
+    <figcaption>{{ .title }}, <a href="{{ .link }}" target="_blank">{{ replace (replace .link "http://" "") "https://" "" }}</a></figcaption>
+  </figure>
+  {{ end }}
+</div>
+{{ end }}
+{{ end }}

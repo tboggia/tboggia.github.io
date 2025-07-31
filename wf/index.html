@@ -17,11 +17,37 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
     <div class="mx-auto ">
+      <svg width="1896" height="549" viewBox="0 0 1896 549" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:100%">
+        <defs>
+          <style>
+            .swiggle {
+              stroke-dasharray: 3650;
+              stroke-dashoffset: 0;
+              animation-name: dash;
+              animation-duration: 3s;
+              animation-timing-function: ease-in-out;
+              animation-direction: normal;
+            }
+            
+            @keyframes dash {
+              from {
+                stroke-dashoffset: -3650;
+              }
+              to {
+                stroke-dashoffset: 0;
+              }
+            }
+          </style>
+        </defs>
+        <path class="swiggle"
+          d="M1865.49 390.392C1814.53 390.392 1780.13 311.423 1687.56 311.578C1594.99 311.732 1677.05 516.391 1594.99 518.078C1512.93 519.764 1495.96 352.15 1407.49 311.578C1319.02 271.005 1256.99 385.042 1343.49 430.964C1429.99 476.887 1633.99 212.003 1467.99 156.003C1301.99 100.003 1215.99 390.392 1079.29 333.352C942.6 276.312 1079.29 156.003 1015.39 87.9154C951.488 19.8275 659.342 68.0124 645.992 156.003C632.642 243.994 765.708 255.994 778.128 175.603C790.548 95.2116 491.639 -40.0828 341.992 119.994C192.346 280.071 42 136 30 30"
+          stroke="#FF8C42" stroke-width="60" stroke-linecap="round" />
+      </svg>
       <h1>Woodstock or Ferry?</h1>
       <p class="result"></p>
       GTFS
       Horoky or vercel mapping api
-      
+
 
     </div>
 

@@ -1,0 +1,8 @@
+baseURL = 'https://tboggia.github.io/'
+languageCode = 'en-us'
+title = 'Tommasofolio'
+theme = ""
+enableGitInfo = true # Useful for showing last updated dates etc.
+
+[params]
+  description = "Despite all attempts at avoiding it, I finally capitulated."
