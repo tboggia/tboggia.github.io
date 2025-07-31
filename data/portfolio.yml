@@ -1,5 +1,5 @@
 - company: "Swell, Inc."
-  description: "Swell is a full service creative and marketing agency for social justice. I got to work with super talented designers to make websites for awesome clients."
+  description: "I was the Senior Web Developer at Swell, a full service creative and marketing agency for social justice. I got to work with super talented designers to make websites for awesome clients."
   items:
     - title: "ShadeLA"
       image: "images/shadela.jpg"
@@ -53,7 +53,7 @@
       link: "https://amicacenter.org"
 
 - company: "UC Berkeley Extension"
-  description: "Developed on a JSP backend using a custom mix of JSP/JSTL"
+  description: "My first web development job, I started knowing 2004 html and css, and left knowing JSP, Drupal, PHP, AngularJs, and how to consume and build APIs."
   items:
     - title: "UC Berkeley Extension"
       image: "images/extension.jpg"
