@@ -1,0 +1,28 @@
+{
+  "name": "tboggia.github.io",
+  "version": "1.0.0",
+  "description": "* CSS3 (less & scss)/HTML5 * Web Accessibility * Javascript (ecmascript 6) * JSP/JSTL/XML * PHP/MySQL * Some Java * Collaborative design processes * Communicating technical ideas to non-technical audience",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build-css": "tailwindcss -i ./src/input.css -o ./public/output.css",
+    "watch-css": "tailwindcss -i ./src/input.css -o ./public/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tboggia/tboggia.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tboggia/tboggia.github.io/issues"
+  },
+  "homepage": "https://github.com/tboggia/tboggia.github.io#readme",
+  "dependencies": {
+    "tailwindcss": "^4.1.11"
+  }
+}
