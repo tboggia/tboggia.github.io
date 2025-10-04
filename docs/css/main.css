@@ -264,7 +264,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Rosarivo&display=swap');
 * {
   color: rgba(51,51,51, 1);
-  font-family: "Rosarivo", cursive;
+  font-family: "Rosarivo", serif;
 }
 body {
   padding: 1rem;
@@ -280,11 +280,16 @@ a {
 h1 {
   font-size: 3em;
   margin-top: 0px;
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Comfortaa', sans-serif;
+}
+h2 {
+  font-size: 2em;
+  margin-top: 0px;
+  font-family: 'Comfortaa', sans-serif;
 }
 h2, h3, h4, h4 {
   margin-bottom: 0.5lh;
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Comfortaa', sans-serif;
 }
 div.portfolio + h2 {
   margin-top: 8rem;
@@ -322,7 +327,7 @@ figcaption {
   grid-area: cube;
 }
 .portfolio__figure__text {
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Comfortaa', sans-serif;
   opacity: 0;
   transition-property: opacity,height;
   transition-duration: 250ms;
