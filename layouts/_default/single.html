@@ -7,7 +7,9 @@
   <title>{{ .title }} | {{ .Site.Title }}</title>
   <meta name="description" content="{{ .Site.Params.description }}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/css/main.css">
+  {{ with (templates.Defer (dict "key" "global")) }}
+    {{ partial "css.html" . }}
+  {{ end }}
   {{ block "head_extra" . }}
   {{ end }}
 </head>
