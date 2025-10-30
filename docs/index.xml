@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tommasofolio</title>
-    <link>https://tboggia.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Tommasofolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://tboggia.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>I rebuilt Extension</title>
-      <link>https://tboggia.github.io/sites/extension/</link>
+      <link>http://localhost:1313/sites/extension/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://tboggia.github.io/sites/extension/</guid>
+      <guid>http://localhost:1313/sites/extension/</guid>
       <description></description>
     </item>
     <item>
       <title>Voices Blog Ideation, Design, and Development</title>
-      <link>https://tboggia.github.io/sites/voices/</link>
+      <link>http://localhost:1313/sites/voices/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://tboggia.github.io/sites/voices/</guid>
+      <guid>http://localhost:1313/sites/voices/</guid>
       <description></description>
     </item>
   </channel>

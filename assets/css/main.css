@@ -19,7 +19,11 @@ p {
 }
 
 a {
-  color: darkblue;
+  color: darkred;
+  text-decoration: underline;
+}
+a:hover {
+  color: blue;
 }
 
 h1 {
@@ -32,8 +36,12 @@ h2 {
   font-size: 2em;
 }
 
+h3 {
+  font-size: 1.2em;
+  margin-bottom: 0.25lh;
+}
+
 h2, h3, h4, h4 {
-  margin-bottom: 0.5lh;
 	font-family: 'Comfortaa', sans-serif;
 }
 
@@ -123,6 +131,9 @@ figcaption {
   width: 100%;
 }
 
+.mb-0 {
+  margin-bottom: 0;
+}
 
 @media screen and (min-width: 600px) {
   body {
