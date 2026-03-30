@@ -15,7 +15,7 @@
 * Destiny Solutions (JSP)
 * AngularJS 
 * jQuery
-* Bootstrap
+* Bootsthurap
 
 ## PROFESSIONAL EXPERIENCE
 ### Web Developer, UC Berkeley

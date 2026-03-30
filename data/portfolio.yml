@@ -34,7 +34,8 @@
       alt: "Keep the River Wet website"
       description: "Blu le mille bolle, blu le mille bolle, che volano, mi chiamano, mi cercano"
       link:
-        text: "https://keeptheriverwet.net"
+        text: "https://keeptheriverwet.org"
+        url: "https://web.archive.org/web/20241221105318/https://keeptheriverwet.org/"
       work_type: "Full site build"
     - title: "Tencue Rebrand"
       image: "images/tencue.jpg"

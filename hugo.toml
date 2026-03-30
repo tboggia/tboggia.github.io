@@ -6,7 +6,7 @@ enableGitInfo = true # Useful for showing last updated dates etc.
 publishDir = "docs"
 
 [params]
-  description = "Despite all attempts at avoiding it, I finally capitulated."
+  description = "Some of the stuff I do."
 
 [build]
   [build.buildStats]
@@ -18,7 +18,7 @@ publishDir = "docs"
     source = '(postcss|tailwind)\.config\.js'
     target = 'css'
 [module]
-  [[module.mounts]]
+  [[module.mounts]] 
     source = 'assets'
     target = 'assets'
   [[module.mounts]]
